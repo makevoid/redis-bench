@@ -22,4 +22,4 @@ getting and setting keys
     Ruby: 13  secs
     
 
-benchs done on entry level MBAir 2012
+benchs done on entry level MBAir 2012, Ruby 2.0.0p195

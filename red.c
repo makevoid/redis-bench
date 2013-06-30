@@ -25,9 +25,11 @@ int main(void) {
 
   
   int i;
-  for(i = 0; i < 50000; ++i)
+  int r;
+  for(i = 0; i < 10000; ++i)
   {
-    reply = redisCommand(conn, "SET foo bar");
+    r = rand() % 20;
+    reply = redisCommand(conn, "SET foo %s%i", "bar", r);
     reply = redisCommand(conn, "GET foo");
   }
   

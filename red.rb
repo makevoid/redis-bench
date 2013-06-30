@@ -2,8 +2,8 @@ require "redis"
 
 redis = Redis.new
 
-50000.times do
-  redis.set "foo", "bar"
+10000.times do
+  redis.set "foo", "bar#{rand(20)}"
 
   redis.get "foo"
 end

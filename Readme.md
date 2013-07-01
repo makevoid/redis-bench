@@ -8,6 +8,7 @@ getting and setting keys
 
 added more benchmarks with pipelining.
 
+**beware: take this benchmarks very lightly**, I made those just to get an idea of various client speed, most of them contain all the RTT, etc...
 
 
 ### 10k GETs + 10k SETs

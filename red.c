@@ -22,7 +22,7 @@ int main(void) {
   if (conn != NULL && conn->err) {
     printf("Connection error: %s\n", conn->errstr);
   }
-
+  
   
   int i;
   int r;
@@ -34,13 +34,8 @@ int main(void) {
   }
   
   // reply = redisCommand(conn, "GET foo");
-  // 
   // putz("reply:");
-  // 
   // printf("%s\n", reply->str);
 }
 
 // gcc red.c -lhiredis; ./a.out 
-
-// export LD_LIBRARY_PATH=/usr/local/include/hiredis
-// export LD_LIBRARY_PATH=/usr/local/Cellar/hiredis

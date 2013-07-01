@@ -77,8 +77,8 @@ C Hiredis (with pipelining)
 
 Ruby Hiredis (uses pipelining under the hood)
 
-    real	0m1.211s
-    user	0m1.177s
+    real	0m1.409s
+    user	0m0.983s
     sys	0m0.028s
 
 ---
